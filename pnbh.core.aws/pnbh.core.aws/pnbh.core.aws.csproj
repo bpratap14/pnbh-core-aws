@@ -57,8 +57,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationErrorModel.cs" />
+    <Compile Include="S3FileInfoModel.cs" />
+    <Compile Include="ApiResponse.cs" />
+    <Compile Include="KMSAlgorithm.cs" />
+    <Compile Include="KMSCryptoTransform.cs" />
     <Compile Include="s3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="S3FileModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
